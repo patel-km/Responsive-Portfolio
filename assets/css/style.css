@@ -1,0 +1,126 @@
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 20 8px;
+    background-color: #fff;
+    color: #777;
+    text-decoration: none;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    display: block;
+}
+
+
+/* Body CSS */
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:#4aaaa5;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/circles-light/circles-light.png);
+    padding: 40px;
+    color: #777;
+    overflow-y: auto;
+    margin-bottom: 60px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    height: auto;
+    width: 920px;
+    padding: 20 20 40 20px;
+    margin: auto;
+}
+
+section{
+    width:200px;
+    height:200px;
+    display: inline;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 5 5 5 0px;
+}
+
+input {
+    margin: 5 5 5 0px;
+    width: 920px;
+}
+textarea{
+    resize: vertical;
+    text-rendering: auto;
+    font: 400 13.3333px Arial;
+    text-align: start;
+    text-transform: none;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-indent: 0px;
+    display: inline-block;
+}
+.button{
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 50px;
+}
+
+/* Footer CSS */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 20 20 10 20px;
+    font-size: 10px;
+}
