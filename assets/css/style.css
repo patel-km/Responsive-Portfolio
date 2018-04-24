@@ -124,3 +124,40 @@ textarea{
     padding: 20 20 10 20px;
     font-size: 10px;
 }
+
+/* Media Queries */
+@media screen and (max-width:980px) {
+    .main {
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main {
+        
+    }
+}
+
+@media screen and (max-width:640px) {
+    .navbar {
+        position: fixed;
+        width:100%;
+
+    }
+    #name{
+        
+    }
+
+    .main {
+        width:90%;
+        margin: auto;
+    }
+
+    input {
+        width:90%;
+    }
+    a{
+        margin:auto;
+        display: inline-block;
+    }
+}
